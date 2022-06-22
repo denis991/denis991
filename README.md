@@ -1,14 +1,14 @@
 Всем привет я учю javaScript и развиваюсь в этом направление 
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark)](https://github.com/anuraghazra/github-readme-stats)
-<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 
 Можно связаться : [Instagram](https://www.instagram.com/denis.991/)     [VK](https://vk.com/denis991)                                                                                   
 
 
 ![d4rsen's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=d4rsen&hide_border=true&theme=redical)
-
+<!-- 
 <h2 align="center">Hi there!🤘</h2>
 <p align="center">
   
@@ -79,7 +79,7 @@
 
   ![d4rsen's github streak](https://github-readme-streak-stats.herokuapp.com/?user=d4rsen&theme=radical)
   
-  <br></br>
+  <br></br> -->
 
   ![d4rsen's github
   stats](https://github-readme-stats.vercel.app/api?username=d4rsen&show_icons=true&theme=radical&include_all_commits=true)
