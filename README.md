@@ -36,12 +36,12 @@
 </div>
 
 <div align="center">
-   ![denis991's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=denis991&hide_border=true&theme=redical)
+![denis991's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=denis991&hide_border=true&theme=redical)
 
-  <br></br>
+  <br>
 
   ![](https://visitor-badge.glitch.me/badge?page_id=denis991)
   
-  <br></br>
+  <br>
 
 </div>
