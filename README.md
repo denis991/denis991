@@ -1,8 +1,7 @@
 Всем привет я учю javaScript и развиваюсь в этом направление 
 <div align="center">
+  
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark)](https://github.com/anuraghazra/github-readme-stats)
-<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=denis991&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
-
 
 Можно связаться : [Instagram](https://www.instagram.com/denis.991/)     [VK](https://vk.com/denis991)                                                                                   
 
@@ -76,7 +75,7 @@
   ![denis991's github streak](https://github-readme-streak-stats.herokuapp.com/?user=denis991&theme=radical)
   
   <br></br> 
-
+</div>
 <div align="center">
 
   <br></br>
