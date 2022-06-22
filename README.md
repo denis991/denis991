@@ -1,14 +1,14 @@
 Всем привет я учю javaScript и развиваюсь в этом направление 
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
 
 
 Можно связаться : [Instagram](https://www.instagram.com/denis.991/)     [VK](https://vk.com/denis991)                                                                                   
 
 
-![d4rsen's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=d4rsen&hide_border=true&theme=redical)
-<!-- 
+![denis.991's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=denis.991&hide_border=true&theme=redical)
+
 <h2 align="center">Hi there!🤘</h2>
 <p align="center">
   
@@ -16,25 +16,23 @@
 </p>
 
 <h2 align="center">💬 Reach me on</h2>
-
-<p align="center" align='right'>
-  <a target="_blank" href="mailto:darsenungarlinov00@gmail.com"><img
-    src="https://img.shields.io/badge/Gmail-20232A?style=for-the-badge&logo=gmail"/></a>&nbsp;&nbsp;&nbsp;
-  <a target="_blank" href="https://d4rsen.vercel.app"><img
-    src="https://img.shields.io/badge/d4rsen.vercel.app-20232A?style=for-the-badge&logo=vercel"/></a>&nbsp;&nbsp;&nbsp;
-  <a target="_blank" href="https://d4rsen.netlify.app"><img
-    src="https://img.shields.io/badge/d4rsen.netlify.app-20232A?style=for-the-badge&logo=netlify"/></a>&nbsp;&nbsp;&nbsp;
-  <a target="_blank" href="https://t.me/d4rse"><img
-    src="https://img.shields.io/badge/Telegram-20232A?style=for-the-badge&logo=telegram"/></a>&nbsp;&nbsp;&nbsp;
-</p>
+<!-- 
 
 <h2 align="center">My skills</h2>
 
 <br><br>
-
+-->
 <div align="center">
-
+ 
   ![JavaScript](https://img.shields.io/badge/JavaScript-20232A?style=for-the-badge&logo=javascript)
+   ![Npm](https://img.shields.io/badge/npm-20232A?style=for-the-badge&logo=npm)
+    ![Github](https://img.shields.io/badge/github-20232A?style=for-the-badge&logo=github)
+   ![PostgreSQL](https://img.shields.io/badge/postgresql-20232A?style=for-the-badge&logo=postgresql)
+  ![Sequelize](https://img.shields.io/badge/Sequelize-20232A?style=for-the-badge&logo=Sequelize)
+  ![Postman](https://img.shields.io/badge/postman-20232A?style=for-the-badge&logo=postman)
+    ![Node](https://img.shields.io/badge/node-20232A?style=for-the-badge&logo=node.js)
+  ![Express](https://img.shields.io/badge/express-20232A?style=for-the-badge&logo=express)
+  <!--
   ![TypeScript](https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=typescript)
   ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
   ![NextJs](https://img.shields.io/badge/next-20232A?style=for-the-badge&logo=next.js)
@@ -46,8 +44,7 @@
   ![Scss](https://img.shields.io/badge/scss-20232A?style=for-the-badge&logo=sass)
   ![PostCss](https://img.shields.io/badge/postcss-20232A?style=for-the-badge&logo=postcss&logoColor=DD3A0A)
   ![Figma](https://img.shields.io/badge/figma-20232A?style=for-the-badge&logo=figma)
-  ![Node](https://img.shields.io/badge/node-20232A?style=for-the-badge&logo=node.js)
-  ![Express](https://img.shields.io/badge/express-20232A?style=for-the-badge&logo=express)
+
   ![GraphQL](https://img.shields.io/badge/graphql-20232A?style=for-the-badge&logo=GraphQL&logoColor=e535ab)
   ![NestJs](https://img.shields.io/badge/nest-20232A?style=for-the-badge&logo=nestjs&logoColor=E0234D)
   ![Socket.io](https://img.shields.io/badge/socket.io-20232A?style=for-the-badge&logo=socket.io)
@@ -57,15 +54,13 @@
   ![Electron](https://img.shields.io/badge/electron-20232A?style=for-the-badge&logo=electron&logoColor=A0EBF9)
   ![Jwt](https://img.shields.io/badge/JWT-20232A?style=for-the-badge&logo=jsonwebtokens)
   ![Vercel](https://img.shields.io/badge/vercel-20232A?style=for-the-badge&logo=vercel)
-  ![PostgreSQL](https://img.shields.io/badge/postgresql-20232A?style=for-the-badge&logo=postgresql)
-  ![Sequelize](https://img.shields.io/badge/Sequelize-20232A?style=for-the-badge&logo=Sequelize)
-  ![Postman](https://img.shields.io/badge/postman-20232A?style=for-the-badge&logo=postman)
+ 
   ![Jest](https://img.shields.io/badge/jest-20232A?style=for-the-badge&logo=jest&logoColor=99424F)
   ![Eslint](https://img.shields.io/badge/eslint-20232A?style=for-the-badge&logo=eslint&logoColor=7C7CEA)
   ![Git](https://img.shields.io/badge/git-20232A?style=for-the-badge&logo=git)
   ![Gilab](https://img.shields.io/badge/gitlab-20232A?style=for-the-badge&logo=gitlab)
-  ![Github](https://img.shields.io/badge/github-20232A?style=for-the-badge&logo=github)
-  ![Npm](https://img.shields.io/badge/npm-20232A?style=for-the-badge&logo=npm)
+
+ 
 
 </div>
 
@@ -73,14 +68,15 @@
 
   <br></br>
 
-  ![d4rsen's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=d4rsen&theme=radical)
+  ![denis.991's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=denis.991&theme=radical)
   
   <br></br>
 
-  ![d4rsen's github streak](https://github-readme-streak-stats.herokuapp.com/?user=d4rsen&theme=radical)
+  ![denis.991's github streak](https://github-readme-streak-stats.herokuapp.com/?user=denis.991&theme=radical)
   
-  <br></br> -->
-
+  <br></br> 
+-->
+<div align="center">
   ![d4rsen's github
   stats](https://github-readme-stats.vercel.app/api?username=d4rsen&show_icons=true&theme=radical&include_all_commits=true)
   
