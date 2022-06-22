@@ -17,7 +17,18 @@
 <div align="center">
  
    
-  ![JavaScript](https://img.shields.io/badge/JavaScript-20232A?style=for-the-badge&logo=javascript) ![Npm](https://img.shields.io/badge/npm-20232A?style=for-the-badge&logo=npm) ![Github](https://img.shields.io/badge/github-20232A?style=for-the-badge&logo=github) ![PostgreSQL](https://img.shields.io/badge/postgresql-20232A?style=for-the-badge&logo=postgresql) ![Sequelize](https://img.shields.io/badge/Sequelize-20232A?style=for-the-badge&logo=Sequelize) ![Node](https://img.shields.io/badge/node-20232A?style=for-the-badge&logo=node.js) ![Express](https://img.shields.io/badge/express-20232A?style=for-the-badge&logo=express) ![Html](https://img.shields.io/badge/HTML5-20232A?style=for-the-badge&logo=html5) ![Css](https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css3&logoColor=369AD6) ![Scss](https://img.shields.io/badge/scss-20232A?style=for-the-badge&logo=sass) ![Jest](https://img.shields.io/badge/jest-20232A?style=for-the-badge&logo=jest&logoColor=99424F) ![Git](https://img.shields.io/badge/git-20232A?style=for-the-badge&logo=git)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-20232A?style=for-the-badge&logo=javascript)
+   ![Npm](https://img.shields.io/badge/npm-20232A?style=for-the-badge&logo=npm)
+   ![Github](https://img.shields.io/badge/github-20232A?style=for-the-badge&logo=github)
+   ![PostgreSQL](https://img.shields.io/badge/postgresql-20232A?style=for-the-badge&logo=postgresql)
+   ![Sequelize](https://img.shields.io/badge/Sequelize-20232A?style=for-the-badge&logo=Sequelize)
+   ![Node](https://img.shields.io/badge/node-20232A?style=for-the-badge&logo=node.js)
+   ![Express](https://img.shields.io/badge/express-20232A?style=for-the-badge&logo=express)
+   ![Html](https://img.shields.io/badge/HTML5-20232A?style=for-the-badge&logo=html5)
+   ![Css](https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css3&logoColor=369AD6)
+   ![Scss](https://img.shields.io/badge/scss-20232A?style=for-the-badge&logo=sass)
+   ![Jest](https://img.shields.io/badge/jest-20232A?style=for-the-badge&logo=jest&logoColor=99424F)
+   ![Git](https://img.shields.io/badge/git-20232A?style=for-the-badge&logo=git)
      </div>   
  
  
