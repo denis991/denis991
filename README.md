@@ -1,5 +1,6 @@
-Всем привет я учю javaScript и развиваюсь в этом направление 
 <div align="center">
+Всем привет я учю javaScript и развиваюсь в этом направление 
+
   
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark)](https://github.com/anuraghazra/github-readme-stats)
 
@@ -27,10 +28,15 @@
    ![Npm](https://img.shields.io/badge/npm-20232A?style=for-the-badge&logo=npm)
     ![Github](https://img.shields.io/badge/github-20232A?style=for-the-badge&logo=github)
    ![PostgreSQL](https://img.shields.io/badge/postgresql-20232A?style=for-the-badge&logo=postgresql)
-  ![Sequelize](https://img.shields.io/badge/Sequelize-20232A?style=for-the-badge&logo=Sequelize)
- 
-    ![Node](https://img.shields.io/badge/node-20232A?style=for-the-badge&logo=node.js)
-  ![Express](https://img.shields.io/badge/express-20232A?style=for-the-badge&logo=express)
+   ![Sequelize](https://img.shields.io/badge/Sequelize-20232A?style=for-the-badge&logo=Sequelize)
+   ![Node](https://img.shields.io/badge/node-20232A?style=for-the-badge&logo=node.js)
+   ![Express](https://img.shields.io/badge/express-20232A?style=for-the-badge&logo=express)
+  ![Html](https://img.shields.io/badge/HTML5-20232A?style=for-the-badge&logo=html5)
+  ![Css](https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css3&logoColor=369AD6)
+  ![Scss](https://img.shields.io/badge/scss-20232A?style=for-the-badge&logo=sass)
+  ![Jest](https://img.shields.io/badge/jest-20232A?style=for-the-badge&logo=jest&logoColor=99424F)
+    ![Git](https://img.shields.io/badge/git-20232A?style=for-the-badge&logo=git)
+  ![Gilab](https://img.shields.io/badge/gitlab-20232A?style=for-the-badge&logo=gitlab)
   <!--
  ![Postman](https://img.shields.io/badge/postman-20232A?style=for-the-badge&logo=postman)
   ![TypeScript](https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=typescript)
@@ -39,9 +45,7 @@
   ![Redux](https://img.shields.io/badge/Redux-20232A?style=for-the-badge&logo=redux&logoColor=7749BD)
   ![ReactQuery](https://img.shields.io/badge/ReactQuery-20232A?style=for-the-badge&logo=reactquery)
   ![ReactRouter](https://img.shields.io/badge/React_Router-20232A?style=for-the-badge&logo=react-router)
-  ![Html](https://img.shields.io/badge/HTML5-20232A?style=for-the-badge&logo=html5)
-  ![Css](https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css3&logoColor=369AD6)
-  ![Scss](https://img.shields.io/badge/scss-20232A?style=for-the-badge&logo=sass)
+  
   ![PostCss](https://img.shields.io/badge/postcss-20232A?style=for-the-badge&logo=postcss&logoColor=DD3A0A)
   ![Figma](https://img.shields.io/badge/figma-20232A?style=for-the-badge&logo=figma)
 
@@ -55,10 +59,9 @@
   ![Jwt](https://img.shields.io/badge/JWT-20232A?style=for-the-badge&logo=jsonwebtokens)
   ![Vercel](https://img.shields.io/badge/vercel-20232A?style=for-the-badge&logo=vercel)
  
-  ![Jest](https://img.shields.io/badge/jest-20232A?style=for-the-badge&logo=jest&logoColor=99424F)
+  
   ![Eslint](https://img.shields.io/badge/eslint-20232A?style=for-the-badge&logo=eslint&logoColor=7C7CEA)
-  ![Git](https://img.shields.io/badge/git-20232A?style=for-the-badge&logo=git)
-  ![Gilab](https://img.shields.io/badge/gitlab-20232A?style=for-the-badge&logo=gitlab)
+
 
  -->
 
