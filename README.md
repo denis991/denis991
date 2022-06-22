@@ -30,13 +30,16 @@
 
   ![denis991's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=denis991&theme=radical)
   
-<!--   <br>
+  <br>
   ![denis991's github streak](https://github-readme-streak-stats.herokuapp.com/?user=denis991&theme=radical)
-  <br>  -->
+  <br> 
+   ![denis991's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=denis991&hide_border=true&theme=redical)
 </div>
 
+
+
 <div align="center">
-![denis991's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=denis991&hide_border=true&theme=redical)
+
 
   <br>
 
