@@ -77,8 +77,8 @@
   <br></br> 
 
 <div align="center">
-  ![d4rsen's github
-  stats](https://github-readme-stats.vercel.app/api?username=d4rsen&show_icons=true&theme=radical&include_all_commits=true)
+  ![denis991's github
+  stats](https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=radical&include_all_commits=true)
   
   <br></br>
 
