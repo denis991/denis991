@@ -29,6 +29,7 @@
    ![Scss](https://img.shields.io/badge/scss-20232A?style=for-the-badge&logo=sass)
    ![Jest](https://img.shields.io/badge/jest-20232A?style=for-the-badge&logo=jest&logoColor=99424F)
    ![Git](https://img.shields.io/badge/git-20232A?style=for-the-badge&logo=git)
+   ![Babel](https://img.shields.io/badge/babel-20232A?style=for-the-badge&logo=babel)
      </div>   
  
  
