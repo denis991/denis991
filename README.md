@@ -15,7 +15,7 @@
 <br>
 
 <div align="center">
-   
+   </div>  
   ![JavaScript](https://img.shields.io/badge/JavaScript-20232A?style=for-the-badge&logo=javascript)
   ![Npm](https://img.shields.io/badge/npm-20232A?style=for-the-badge&logo=npm)  
    ![Github](https://img.shields.io/badge/github-20232A?style=for-the-badge&logo=github) 
@@ -29,7 +29,7 @@
    ![Jest](https://img.shields.io/badge/jest-20232A?style=for-the-badge&logo=jest&logoColor=99424F)
     ![Git](https://img.shields.io/badge/git-20232A?style=for-the-badge&logo=git)
    
-   </div>
+ 
  
 
 
@@ -40,9 +40,9 @@
 
   ![denis991's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=denis991&theme=radical)
   
-  <br></br>
+<!--   <br>
   ![denis991's github streak](https://github-readme-streak-stats.herokuapp.com/?user=denis991&theme=radical)
-  <br></br> 
+  <br>  -->
 </div>
 
 <div align="center">
