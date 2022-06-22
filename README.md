@@ -8,8 +8,9 @@
 </div>
 
 ![denis991's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=denis991&hide_border=true&theme=redical)
-<h2 align="center">Hi there!🤘</h2>
-<h2 align="center">💬 Reach me on</h2>
+
+<!-- <h2 align="center">Hi there!🤘</h2>
+<h2 align="center">💬 Reach me on</h2> -->
 <h2 align="center">My skills</h2>
 <br>
 
@@ -26,6 +27,7 @@
    ![Scss](https://img.shields.io/badge/scss-20232A?style=for-the-badge&logo=sass)
    ![Jest](https://img.shields.io/badge/jest-20232A?style=for-the-badge&logo=jest&logoColor=99424F)
     ![Git](https://img.shields.io/badge/git-20232A?style=for-the-badge&logo=git)
+   </div>
   <!--
 
 
@@ -51,7 +53,7 @@
   ![Eslint](https://img.shields.io/badge/eslint-20232A?style=for-the-badge&logo=eslint&logoColor=7C7CEA)
  -->
 
-</div>
+
 
 <div align="center">
 
