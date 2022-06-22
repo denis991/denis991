@@ -7,7 +7,7 @@
 Можно связаться : [Instagram](https://www.instagram.com/denis.991/)     [VK](https://vk.com/denis991)                                                                                   
 </div>
 
-![denis991's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=denis991&hide_border=true&theme=redical)
+
 
 <!-- <h2 align="center">Hi there!🤘</h2>
 <h2 align="center">💬 Reach me on</h2> -->
@@ -36,6 +36,7 @@
 </div>
 
 <div align="center">
+   ![denis991's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=denis991&hide_border=true&theme=redical)
 
   <br></br>
 
