@@ -1,12 +1,12 @@
 Всем привет я учю javaScript и развиваюсь в этом направление 
-
+<div align="center">
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark)](https://github.com/anuraghazra/github-readme-stats)
 <!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=denis991&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
 
 
 Можно связаться : [Instagram](https://www.instagram.com/denis.991/)     [VK](https://vk.com/denis991)                                                                                   
 
-
+</div>
 ![denis991's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=denis991&hide_border=true&theme=redical)
 
 <h2 align="center">Hi there!🤘</h2>
@@ -29,10 +29,11 @@
     ![Github](https://img.shields.io/badge/github-20232A?style=for-the-badge&logo=github)
    ![PostgreSQL](https://img.shields.io/badge/postgresql-20232A?style=for-the-badge&logo=postgresql)
   ![Sequelize](https://img.shields.io/badge/Sequelize-20232A?style=for-the-badge&logo=Sequelize)
-  ![Postman](https://img.shields.io/badge/postman-20232A?style=for-the-badge&logo=postman)
+ 
     ![Node](https://img.shields.io/badge/node-20232A?style=for-the-badge&logo=node.js)
   ![Express](https://img.shields.io/badge/express-20232A?style=for-the-badge&logo=express)
   <!--
+ ![Postman](https://img.shields.io/badge/postman-20232A?style=for-the-badge&logo=postman)
   ![TypeScript](https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=typescript)
   ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
   ![NextJs](https://img.shields.io/badge/next-20232A?style=for-the-badge&logo=next.js)
@@ -77,9 +78,7 @@
   <br></br> 
 
 <div align="center">
-  ![denis991's github
-  stats](https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=radical&include_all_commits=true)
-  
+
   <br></br>
 
   ![](https://visitor-badge.glitch.me/badge?page_id=denis991)
