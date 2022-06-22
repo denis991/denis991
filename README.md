@@ -1,7 +1,9 @@
 <div align="center">
    
 Всем привет я учю javaScript и развиваюсь в этом направление 
+   <br>
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark)](https://github.com/anuraghazra/github-readme-stats)
+   <br>
 Можно связаться : [Instagram](https://www.instagram.com/denis.991/)     [VK](https://vk.com/denis991)                                                                                   
 </div>
 
@@ -9,7 +11,7 @@
 <h2 align="center">Hi there!🤘</h2>
 <h2 align="center">💬 Reach me on</h2>
 <h2 align="center">My skills</h2>
-<br><br>
+<br>
 
 <div align="center">
   ![JavaScript](https://img.shields.io/badge/JavaScript-20232A?style=for-the-badge&logo=javascript)
@@ -53,7 +55,7 @@
 
 <div align="center">
 
-  <br></br>
+  <br>
 
   ![denis991's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=denis991&theme=radical)
   
