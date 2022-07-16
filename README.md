@@ -6,7 +6,10 @@
    <br>
 Можно связаться : [Instagram](https://www.instagram.com/denis.991/)     [VK](https://vk.com/denis991)                                                                                   
 </div>
-<div align="center">
+<p align="center" align='right'>
+<!--      <a target="_blank" href="mailto:darsenungarlinov00@gmail.com"><img -->
+    <a target="_blank" href="https://t.me/d9911"><img                                                
+    src="![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)"/></a>&nbsp;&nbsp;&nbsp;
 
    ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
    ![Discord](https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)
@@ -23,7 +26,7 @@
    ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
    ![Zoom](https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white)
 
-   </div>
+   </p>
    
 
    <hr>
