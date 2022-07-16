@@ -1,6 +1,5 @@
 <div align="center">
    
-Всем привет я учю javaScript и развиваюсь в этом направление 
    <br>
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark)](https://github.com/anuraghazra/github-readme-stats)
    <br>
@@ -9,7 +8,7 @@
 <p align="center" align='right'>
 <!--      <a target="_blank" href="mailto:darsenungarlinov00@gmail.com"><img -->
     <a href="https://t.me/d9911"><img scr="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-
+<a href="https://t.me/d9911"><img scr="![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)"/></a>
    ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
    ![Discord](https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)
    ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
