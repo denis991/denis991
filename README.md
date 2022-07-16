@@ -68,10 +68,11 @@
    ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
    ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
      </div>  
-   <br>
-   <div align="center">
-   в процессе обучения
    
+  
+   <h2 align="center"> In the process of studying</h2>
+<br>
+    <div align="center">
    ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
    ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
    ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -97,10 +98,7 @@
    ![denis991's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=denis991&hide_border=true&theme=redical)
 </div>
 
-
-
 <div align="center">
-
 
   <br>
 
