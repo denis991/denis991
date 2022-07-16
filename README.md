@@ -6,10 +6,13 @@
 Можно связаться : [Instagram](https://www.instagram.com/denis.991/)     [VK](https://vk.com/denis991)     
    
 </div>
+
 <p align="center" align='right'>
    
 <!--      <a target="_blank" href="mailto:darsenungarlinov00@gmail.com"><img -->
+   
     <a href="https://t.me/d9911"><img scr="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+   
 <a href="https://t.me/d9911"><img scr="![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)"/></a>
    
    ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
