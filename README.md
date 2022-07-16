@@ -73,6 +73,7 @@
    <h2 align="center"> In the process of studying</h2>
 <br>
     <div align="center">
+   
    ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
    ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
    ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -85,12 +86,7 @@
 
 <div align="center">
 
-
-
   ![denis991's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=denis991&theme=radical)
-  
-  <br>
-   
   ![denis991's github streak](https://github-readme-streak-stats.herokuapp.com/?user=denis991&theme=radical)
    
   <br> 
