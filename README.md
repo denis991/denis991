@@ -1,7 +1,9 @@
 <div align="center">
    
    <br>
+   
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark)](https://github.com/anuraghazra/github-readme-stats)
+   
    <br>
 <!-- Можно связаться : [Instagram](https://www.instagram.com/denis.991/)     [VK](https://vk.com/denis991)      -->
    
@@ -10,8 +12,9 @@
 <p align="center" align='right'>
   <a target="_blank" href="https://t.me/d9911"><img
     src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
+  <a target="_blank" href="mailto:d.99113@gmail.com"><img
+    src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
   
-   ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
    ![Discord](https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)
    ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
    ![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)
