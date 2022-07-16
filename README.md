@@ -1,6 +1,8 @@
 <div align="center">
    
    <br>
+   https://github-readme-stats.vercel.app/api?username=denis991
+   
    
 https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark
    
@@ -41,6 +43,7 @@ https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&the
 <br>
 
 <div align="center">
+   
    ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
    ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
    ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
