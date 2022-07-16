@@ -1,9 +1,10 @@
 <div align="center">
    
    <br>
+   
      ![denis991's github stats](https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark)
    
-      <hr>
+     
 <!-- https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark -->
    
    <br>
