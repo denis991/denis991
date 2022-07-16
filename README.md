@@ -30,6 +30,12 @@
    ![Jest](https://img.shields.io/badge/jest-20232A?style=for-the-badge&logo=jest&logoColor=99424F)
    ![Git](https://img.shields.io/badge/git-20232A?style=for-the-badge&logo=git)
    ![Babel](https://img.shields.io/badge/babel-20232A?style=for-the-badge&logo=babel)
+   ![Socket.io](https://img.shields.io/badge/socket.io-20232A?style=for-the-badge&logo=socket.io)
+   ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+   ![Redux](https://img.shields.io/badge/Redux-20232A?style=for-the-badge&logo=redux&logoColor=7749BD)
+   ![Figma](https://img.shields.io/badge/figma-20232A?style=for-the-badge&logo=figma)
+   ![ReactRouter](https://img.shields.io/badge/React_Router-20232A?style=for-the-badge&logo=react-router)
+   ![Eslint](https://img.shields.io/badge/eslint-20232A?style=for-the-badge&logo=eslint&logoColor=7C7CEA)
      </div>   
  
  
