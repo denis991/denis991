@@ -121,16 +121,18 @@
 
 
 <div align="center">
+   
+   [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=denis991&layout=compact&langs_count=10&theme=chartreuse-dark&?)](https://github.com/anuraghazra/github-readme-stats)
 
   [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark)](https://github.com/anuraghazra/github-readme-stats)
+  ![denis991's github streak](https://github-readme-streak-stats.herokuapp.com/?user=denis991&theme=chartreuse-dark)
   
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=denis991&layout=compact&langs_count=10&theme=chartreuse-dark&?)](https://github.com/anuraghazra/github-readme-stats)
+
 
 <!--  ![denis991's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=denis991&theme=radical) -->
    
-  ![denis991's github streak](https://github-readme-streak-stats.herokuapp.com/?user=denis991&theme=chartreuse-dark)
    
-  <br> 
+<!--   <br>  -->
    
    ![denis991's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=denis991&hide_border=true&theme=chartreuse-dark)
 </div>
