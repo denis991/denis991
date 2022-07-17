@@ -2,10 +2,6 @@
    
    <br>
    
-   [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark)](https://github.com/anuraghazra/github-readme-stats)
-   
-    
-   
      
 <!-- https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark -->
    
@@ -116,7 +112,10 @@
 
 <div align="center">
 
-  ![denis991's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=denis991&theme=radical)
+  [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=denis991&layout=compact&langs_count=10&theme=chartreuse-dark&?)](https://github.com/anuraghazra/github-readme-stats)
+
+<!--  ![denis991's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=denis991&theme=radical) -->
    
   ![denis991's github streak](https://github-readme-streak-stats.herokuapp.com/?user=denis991&theme=radical)
    
