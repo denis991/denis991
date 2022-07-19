@@ -3,7 +3,7 @@
    <br>
      <h1>
         
-  Hey There
+ Всем привет
   <a href="https://github.com/denis991">
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
   </a>
@@ -47,7 +47,7 @@
    
    <hr>
 
-<h2 align="center">My skills</h2>
+<h2 align="center">Мои навыки</h2>
 <br>
 
 <div align="center" line-height: 0.9em >
@@ -109,7 +109,7 @@
     </div>
    -->
    
-   <h2 align="center"> In the process of studying</h2>
+   <h2 align="center"> В процессе обучения</h2>
 <br>
     <div align="center">
    
