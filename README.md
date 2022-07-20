@@ -24,7 +24,7 @@
     src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
   <a target="_blank" href="https://www.instagram.com/denis.991/"><img
     src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
-  <a target="_blank" href=" https://www.twitch.tv/d991/"><img
+  <a target="_blank" href="https://www.twitch.tv/d991/"><img
     src="https://img.shields.io/badge/Twitch-%239146FF.svg?style=for-the-badge&logo=Twitch&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
   <a target="_blank" href="https://twitter.com/DenisG991"><img
     src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
