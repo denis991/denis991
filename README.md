@@ -120,7 +120,12 @@
    ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
      </div>   
  
- 
+ <div align="center">
+   
+ ### I spend my free time on
+![Codewars](https://www.codewars.com/users/denis991/badges/large)
+</div>
+
 <hr>
 
 
