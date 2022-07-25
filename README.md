@@ -1,14 +1,13 @@
 <div align="center">
-   
-   <br>
-     <h1>
-        
- Всем привет
-  <a href="https://github.com/denis991">
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+  
+    
+       
+  <a href="https://t.me/d9911">
+  <h2>Hi, I'm Denis and I'm a FullStack JavaScript Developer <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> </h2>
+    
   </a>
         
-  </h1>
+
      
 <!-- https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark -->
    
@@ -24,13 +23,13 @@
     src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
   <a target="_blank" href="https://www.instagram.com/denis.991/"><img
     src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
-  <a target="_blank" href=" https://www.twitch.tv/d991/"><img
+  <a target="_blank" href="https://www.twitch.tv/d991/"><img
     src="https://img.shields.io/badge/Twitch-%239146FF.svg?style=for-the-badge&logo=Twitch&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
   <a target="_blank" href="https://twitter.com/DenisG991"><img
     src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
   <a target="_blank" href="https://discordapp.com/users/530670229903376385"><img
     src="https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
-  <a target="_blank" href="https://www.linkedin.com/in/denis-gutsulyak-4408a498/"><img
+<a target="_blank" href="https://www.linkedin.com/in/den991/"><img
     src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
 
 
@@ -49,7 +48,7 @@
    
    <hr>
 
-<h2 align="center">Мои навыки</h2>
+<h2 align="center">My stack</h2>
 <br>
 
 <div align="center" line-height: 0.9em >
@@ -88,6 +87,7 @@
    ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
    ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
    ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+   ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
    
   </div> 
   
@@ -112,7 +112,7 @@
     </div>
    -->
    
-   <h2 align="center"> В процессе обучения</h2>
+   <h2 align="center"> In the process</h2>
 <br>
     <div align="center">
    
