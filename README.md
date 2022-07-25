@@ -49,7 +49,7 @@
    
    <hr>
 
-<h2 align="center">Мои навыки</h2>
+<h2 align="center">My stack</h2>
 <br>
 
 <div align="center" line-height: 0.9em >
@@ -88,6 +88,7 @@
    ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
    ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
    ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+   ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
    
   </div> 
   
@@ -112,7 +113,7 @@
     </div>
    -->
    
-   <h2 align="center"> В процессе обучения</h2>
+   <h2 align="center"> In the process</h2>
 <br>
     <div align="center">
    
