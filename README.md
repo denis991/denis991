@@ -3,9 +3,10 @@
    <br>
      <h1>
         
- Всем привет
-  <a href="https://github.com/denis991">
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+
+  <a href="https://t.me/d9911">
+  <h2>Hi, I'm Denis and I'm a FullStack JavaScript Developer <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> </h2>
+    
   </a>
         
   </h1>
