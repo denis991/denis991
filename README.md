@@ -149,4 +149,7 @@
 ![denis991's](https://visitor-badge.glitch.me/badge?page_id=denis991)
 
   <br>
+   <a target="_blank" href="https://mynickname.com/forum3t0/d991.gif"><img
+    src="https://mynickname.com/forum6t0/d991.gif"/></a>
+
 </div>
