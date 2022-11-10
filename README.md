@@ -92,6 +92,7 @@
   </div>
 
  <!--
+
  <div align="center" line-height: 0.9em >
 
    ![Miro](https://img.shields.io/badge/Miro-050038?style=for-the-badge&logo=Miro&logoColor=white)
