@@ -15,30 +15,32 @@
 </div>
 
 <p align="center" align='right'>
-  <a target="_blank" href="https://t.me/d9911"><img
-    src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
-  <a target="_blank" href="mailto:d.99113@gmail.com"><img
-    src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
-  <a target="_blank" href="https://www.instagram.com/denis.991/"><img
-    src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
-  <a target="_blank" href="https://www.twitch.tv/d991/"><img
-    src="https://img.shields.io/badge/Twitch-%239146FF.svg?style=for-the-badge&logo=Twitch&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
-  <a target="_blank" href="https://twitter.com/DenisG991"><img
-    src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
-  <a target="_blank" href="https://discordapp.com/users/530670229903376385"><img
-    src="https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://t.me/d9911"><img
+ [!telegram]src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="mailto:d.99113@gmail.com"><img
+   [!Gmail] src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://www.instagram.com/denis.991/"><img
+   [!Instagram] src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://www.twitch.tv/d991/"><img
+   [!Twitch] src="https://img.shields.io/badge/Twitch-%239146FF.svg?style=for-the-badge&logo=Twitch&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://twitter.com/DenisG991"><img
+   [!Twitter] src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://discordapp.com/users/530670229903376385"><img
+   [!discor] src="https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="https://www.linkedin.com/in/den991/"><img
-    src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
-    <a target="_blank"  href="https://gitlab.com/denis991"><img
-    src="https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
+   [!linkedin] src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
+<a target="_blank"  href="https://gitlab.com/denis991"><img
+   [!GitLab] src="https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
+<a target="_blank"  href="https://ru.stackoverflow.com/users/447006/den-good"><img
+   [!stack-overflow] src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;
   
 <div align="center" line-height: 0.9em >
-  
+<!--   
    ![WeChat](https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white)
 ![Stack_Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
    ![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)
   </div>
-<!-- 
+
    ![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=Pinterest&logoColor=white)
    ![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)
    ![Protonmail](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)
