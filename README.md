@@ -27,14 +27,15 @@
       src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" /></a>&nbsp;&nbsp;
   <a ![discor] target="_blank" href="https://discordapp.com/users/530670229903376385"><img
       src="https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white" /></a>&nbsp;&nbsp;
-  <a ![linkedin] target="_blank" href="https://www.linkedin.com/in/den991/"><img
-      src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;
   <a ![GitLab] target="_blank" href="https://gitlab.com/denis991"><img
       src="https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white" /></a>&nbsp;&nbsp;
   <a ![Stack_Overflow] target="_blank" href="https://ru.stackoverflow.com/users/447006/den-good"><img
       src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" /></a>
   
-  <!--
+  <!--  
+   <a ![linkedin] target="_blank" href="https://www.linkedin.com/in/den991/"><img
+      src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;
+
     <div align="center" line-height: 0.9em >
    ![WeChat](https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white)
    ![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)
