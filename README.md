@@ -102,6 +102,7 @@
   <img ![GitLab CI] src="https://img.shields.io/badge/gitlab%20ci-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white">
   <img ![Gulp] src="https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white">
   <img ![i18next] src="https://img.shields.io/static/v1?style=for-the-badge&message=i18next&color=26A69A&logo=i18next&logoColor=FFFFFF&label=">
+  <img ![Anaconda] src="https://img.shields.io/static/v1?style=for-the-badge&message=Anaconda&color=44A833&logo=Anaconda&logoColor=FFFFFF&label=">
 </div>
 
 
