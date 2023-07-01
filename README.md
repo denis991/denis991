@@ -103,6 +103,10 @@
   <img ![Gulp] src="https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white">
   <img ![i18next] src="https://img.shields.io/static/v1?style=for-the-badge&message=i18next&color=26A69A&logo=i18next&logoColor=FFFFFF&label=">
   <img ![Anaconda] src="https://img.shields.io/static/v1?style=for-the-badge&message=Anaconda&color=44A833&logo=Anaconda&logoColor=FFFFFF&label=">
+  <img ![TailwindCSS] src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white">
+  <img ![PostCSS] src="https://img.shields.io/static/v1?style=for-the-badge&message=PostCSS&color=DD3A0A&logo=PostCSS&logoColor=FFFFFF&label=">
+
+
 </div>
 
 
