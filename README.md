@@ -105,7 +105,7 @@
   <img ![Anaconda] src="https://img.shields.io/static/v1?style=for-the-badge&message=Anaconda&color=44A833&logo=Anaconda&logoColor=FFFFFF&label=">
   <img ![TailwindCSS] src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white">
   <img ![PostCSS] src="https://img.shields.io/static/v1?style=for-the-badge&message=PostCSS&color=DD3A0A&logo=PostCSS&logoColor=FFFFFF&label=">
-
+  <img ![Ant Design] src="https://img.shields.io/static/v1?style=for-the-badge&message=Ant+Design&color=0170FE&logo=Ant+Design&logoColor=FFFFFF&label=">
 
 </div>
 
