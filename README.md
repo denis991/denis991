@@ -173,17 +173,19 @@
   stats](https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark)](https://github.com/anuraghazra/github-readme-stats)
   ![denis991's github
   streak](https://github-readme-streak-stats.herokuapp.com/?user=denis991&theme=chartreuse-dark)
-
+  <!-- 
   ![denis991's GitHub activity
   graph](https://activity-graph.herokuapp.com/graph?username=denis991&hide_border=true&theme=chartreuse-dark)
+ -->
+</div>
 
+<div align="center"> 
+  <img src="https://komarev.com/ghpvc/?username=denis991&style=flat-square&color=blue" alt=""/>
 </div>
 
 <div align="center">
-  <br>
-
-  ![denis991's](https://visitor-badge.glitch.me/badge?page_id=denis991)
-
+  <!-- <br> -->
+  <!-- ![denis991's](https://visitor-badge.glitch.me/badge?page_id=denis991) -->
   <br>
   <a target="_blank" href="https://mynickname.com/d991"><img
       src="https://mynickname.com/forum6t0/d991.gif" /></a>
