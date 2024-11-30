@@ -108,6 +108,7 @@
   <img ![Ant Design] src="https://img.shields.io/static/v1?style=for-the-badge&message=Ant+Design&color=0170FE&logo=Ant+Design&logoColor=FFFFFF&label=">
   <img ![Quasar] src="https://img.shields.io/static/v1?style=for-the-badge&message=Quasar&color=050A14&logo=Quasar&logoColor=FFFFFF&label=">
   <img ![Redis] src="https://img.shields.io/static/v1?style=for-the-badge&message=Redis&color=FF4438&logo=Redis&logoColor=FFFFFF&label=">
+  <img ![Next TS] src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white">
 <!--   <img > -->
   
 
