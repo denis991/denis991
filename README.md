@@ -157,7 +157,8 @@
 
   ### I spend my free time on
 
-  ![Codewars](https://www.codewars.com/users/denis991/badges/large)
+ <!-- ![Codewars](https://www.codewars.com/users/d9911/badges/large) -->
+ [![CodeWars](https://www.codewars.com/users/d9911/badges/small?theme=light)](https://www.codewars.com/users/d9911)
 
 </div>
 
