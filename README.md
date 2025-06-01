@@ -1,7 +1,7 @@
-<div align="center">
-  <a href="https://t.me/d9911">
-    <h2  data-i18n="hi">
-      Hi, I'm Denis and I'm a FullStack JavaScript Developer
+<div class="welcome" align="center">
+  <a  href="https://t.me/d9911">
+    <h2>
+      <span data-i18n="hi">Hi, I'm Denis and I'm a FullStack JavaScript Developer</span>
       <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" />
     </h2>
 
@@ -14,7 +14,7 @@
 
 </div>
 
-<p align="center" align='right'>
+<p class="links" align="center" align='right'>
   <a ![telegram] target="_blank" href="https://t.me/d9911"><img
       src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>&nbsp;&nbsp;
   <a ![Gmail] target="_blank" href="mailto:d.99113@gmail.com"><img
@@ -50,7 +50,7 @@
 <h2 align="center">My stack</h2>
 <br>
 
-<div align="center" line-height: 0.9em>
+<div class="skills" align="center" line-height: 0.9em>
   <img ![JavaScript]  src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" >
   <img ![PHP]  src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white">
   <img ![CSS3]  src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
@@ -132,9 +132,9 @@
    ![iterm2]  (https://img.shields.io/badge/iTerm2-000000?style=for-the-badge&logo=iterm2&logoColor=white)
     </div> -->
 
-<h2 align="center"> In the process</h2>
+<h2 align="center" data-i18n="2"> In the process</h2>
 <br>
-<div align="center">
+<div class="process" align="center">
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
@@ -143,9 +143,9 @@
 
 </div>
 
-<div align="center">
+<div class="free-time"  align="center">
 
-### I spend my free time on
+<h3 data-i18n="3">I spend my free time on</h3>
 
  <!-- ![Codewars](https://www.codewars.com/users/d9911/badges/large) -->
 
@@ -155,7 +155,7 @@
 
 <hr>
 
-<div align="center">
+<div class="graphics" align="center">
 
 [![Top
   Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=denis991&layout=compact&langs_count=10&theme=chartreuse-dark&?)](https://github.com/anuraghazra/github-readme-stats)
@@ -171,12 +171,11 @@
  -->
 </div>
 
-<div align="center">
+<div class="statistic"  align="center">
   <img src="https://komarev.com/ghpvc/?username=denis991&style=flat-square&color=blue" alt=""/>
-</div>
 
-<div align="center">
   <br>
   <a target="_blank" href="https://mynickname.com/d991"><img
       src="https://mynickname.com/forum6t0/d991.gif" /></a>
+  <br>
 </div>
