@@ -1,6 +1,6 @@
 {
 	"name": "DenGu-page-base",
-	"main": "src/index.js",
+	"main": "src/index.html",
 	"compatibility_date": "2025-06-01",
 	"workers_dev": true,
 	"assets": {
