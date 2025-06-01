@@ -31,29 +31,23 @@
       src="https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white" /></a>&nbsp;&nbsp;
   <a ![Stack_Overflow] target="_blank" href="https://ru.stackoverflow.com/users/447006/den-good"><img
       src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" /></a>
-  
-  <!--  
-   <a ![linkedin] target="_blank" href="https://www.linkedin.com/in/den991/"><img
-      src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;
+ <!--
+<a ![linkedin] target="\_blank" href="https://www.linkedin.com/in/den991/"><img
+      src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+![WeChat](https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white)
+![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)
 
-    <div align="center" line-height: 0.9em >
-   ![WeChat](https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white)
-   ![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)
-
-   ![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=Pinterest&logoColor=white)
-   ![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)
-   ![Protonmail](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)
-   ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
-   https://www.youtube.com/channel/UCoW30Z0mwAdparU5DQJTGuA 
-    </div>
-  -->
+![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=Pinterest&logoColor=white)
+![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)
+![Protonmail](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)
+![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
+ -->
 
 </p>
 <hr>
 
 <h2 align="center">My stack</h2>
 <br>
-
 
 <div align="center" line-height: 0.9em>
   <img ![JavaScript]  src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" >
@@ -115,21 +109,15 @@
   <img ![nuxt js] src="https://img.shields.io/badge/nuxt%20js-00C58E?style=for-the-badge&logo=nuxtdotjs&logoColor=white">
   <img ![.ENV] src="https://img.shields.io/static/v1?style=for-the-badge&message=.ENV&color=222222&logo=.ENV&logoColor=ECD53F&label=">
   <img ![PostCss] src="https://img.shields.io/badge/postcss-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white">
-  <img ![Apache Kafka] src="https://img.shields.io/static/v1?style=for-the-badge&message=Apache+Kafka&color=231F20&logo=Apache+Kafka&logoColor=FFFFFF&label="> 
-<!--   <img > -->
-  
+  <img ![Apache Kafka] src="https://img.shields.io/static/v1?style=for-the-badge&message=Apache+Kafka&color=231F20&logo=Apache+Kafka&logoColor=FFFFFF&label=">
 
 </div>
 
-
 <!--  <div align="center" line-height: 0.9em >
-  
-  
    ![Miro](https://img.shields.io/badge/Miro-050038?style=for-the-badge&logo=Miro&logoColor=white)
    ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
    ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-  
    ![Codewars](https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=grey)
    ![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=for-the-badge&logo=mdnwebdocs&logoColor=white)
 
@@ -142,24 +130,25 @@
    ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
    ![iterm2]  (https://img.shields.io/badge/iTerm2-000000?style=for-the-badge&logo=iterm2&logoColor=white)
     </div> -->
-  
 
 <h2 align="center"> In the process</h2>
 <br>
 <div align="center">
 
-  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-  ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-  ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
-  ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+
 </div>
 
 <div align="center">
 
-  ### I spend my free time on
+### I spend my free time on
 
  <!-- ![Codewars](https://www.codewars.com/users/d9911/badges/large) -->
- [![CodeWars](https://www.codewars.com/users/d9911/badges/small?theme=light)](https://www.codewars.com/users/d9911)
+
+[![CodeWars](https://www.codewars.com/users/d9911/badges/small?theme=light)](https://www.codewars.com/users/d9911)
 
 </div>
 
@@ -167,26 +156,25 @@
 
 <div align="center">
 
-  [![Top
+[![Top
   Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=denis991&layout=compact&langs_count=10&theme=chartreuse-dark&?)](https://github.com/anuraghazra/github-readme-stats)
 
-  [![Anurag's GitHub
+[![Anurag's GitHub
   stats](https://github-readme-stats.vercel.app/api?username=denis991&show_icons=true&theme=chartreuse-dark&hide=dark)](https://github.com/anuraghazra/github-readme-stats)
-  ![denis991's github
+![denis991's github
   streak](https://github-readme-streak-stats.herokuapp.com/?user=denis991&theme=chartreuse-dark)
-  <!-- 
+
+  <!--
   ![denis991's GitHub activity
   graph](https://activity-graph.herokuapp.com/graph?username=denis991&hide_border=true&theme=chartreuse-dark)
  -->
 </div>
 
-<div align="center"> 
+<div align="center">
   <img src="https://komarev.com/ghpvc/?username=denis991&style=flat-square&color=blue" alt=""/>
 </div>
 
 <div align="center">
-  <!-- <br> -->
-  <!-- ![denis991's](https://visitor-badge.glitch.me/badge?page_id=denis991) -->
   <br>
   <a target="_blank" href="https://mynickname.com/d991"><img
       src="https://mynickname.com/forum6t0/d991.gif" /></a>

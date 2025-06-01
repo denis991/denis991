@@ -1,0 +1,164 @@
+/* =================================
+   Сброс базовых отступов и box-sizing
+   ================================= */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+/* =================================
+   Темы: светлая и тёмная
+   ================================= */
+body.light-theme {
+	background-color: #f8f9fa;
+	color: #24292e;
+}
+
+body.dark-theme {
+	background-color: #0d1117;
+	color: #c9d1d9;
+}
+
+/* =================================
+   .container: общий отступ и выравнивание
+   ================================= */
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2rem 1rem;
+}
+
+/* =================================
+   Блок управления (тема + язык)
+   ================================= */
+.controls {
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+	display: flex;
+	gap: 0.5rem;
+	z-index: 100;
+}
+
+.icon-button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0.4rem;
+	border-radius: 0.4rem;
+	transition: background-color 0.2s ease;
+}
+
+body.light-theme .icon-button:hover {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+body.dark-theme .icon-button:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* =================================
+   Стили для Markdown-контента (README.md)
+   ================================= */
+#readme-container {
+	margin-top: 2rem;
+}
+
+/* Основные элементы Markdown */
+#readme-container h1,
+#readme-container h2,
+#readme-container h3 {
+	margin: 1.5rem 0 1rem;
+	line-height: 1.3;
+}
+
+#readme-container p {
+	margin: 0.8rem 0;
+	line-height: 1.6;
+}
+
+#readme-container a {
+	color: #0366d6;
+	text-decoration: none;
+}
+
+body.dark-theme #readme-container a {
+	color: #58a6ff;
+}
+
+#readme-container a:hover {
+	text-decoration: underline;
+}
+
+/* Списки */
+#readme-container ul,
+#readme-container ol {
+	margin: 0.8rem 0 0.8rem 1.2rem;
+}
+
+/* Кодовые блоки */
+#readme-container pre {
+	background-color: rgba(27, 31, 35, 0.05);
+	padding: 1rem;
+	border-radius: 6px;
+	overflow-x: auto;
+	margin: 1rem 0;
+}
+
+body.dark-theme #readme-container pre {
+	background-color: rgba(27, 31, 35, 0.2);
+}
+
+#readme-container code {
+	background-color: rgba(27, 31, 35, 0.05);
+	padding: 0.2rem 0.4rem;
+	border-radius: 4px;
+}
+
+body.dark-theme #readme-container code {
+	background-color: rgba(27, 31, 35, 0.2);
+}
+
+/* Изображения */
+#readme-container img {
+	max-width: 100%;
+	height: auto;
+	margin: 1rem 0;
+	display: block;
+}
+
+/* Таблицы */
+#readme-container table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 1rem 0;
+}
+
+#readme-container th,
+#readme-container td {
+	border: 1px solid #dfe2e5;
+	padding: 0.6rem 1rem;
+}
+
+body.dark-theme #readme-container th,
+body.dark-theme #readme-container td {
+	border-color: #444c56;
+}
+
+#readme-container th {
+	background-color: #f6f8fa;
+}
+
+body.dark-theme #readme-container th {
+	background-color: #161b22;
+}
