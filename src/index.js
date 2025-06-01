@@ -16,7 +16,7 @@ export default {
     if (response.status === 404) {
       // Принудительно создаём новый запрос к /index.html
       const fallbackUrl = new URL(request.url);
-      fallbackUrl.pathname = '/index.html';
+      fallbackUrl.pathname = '../index.html';
       return env.ASSETS.fetch(new Request(fallbackUrl, request));
     }
 

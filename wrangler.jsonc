@@ -4,7 +4,6 @@
 	"compatibility_date": "2025-06-01",
 	"workers_dev": true,
 	"assets": {
-		"directory": "./src",
 		"binding": "ASSETS",
 		"not_found_handling": "404-page"
 	}
