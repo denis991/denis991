@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	// Loading and rendering README.md
 	const readmeContainer = document.getElementById('readme-container');
 
-	fetch('README.md')
+	fetch('../README.md')
 		.then((res) => {
 			if (!res.ok) throw new Error('Не удалось загрузить README.md');
 			return res.text();
