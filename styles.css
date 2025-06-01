@@ -1,6 +1,36 @@
-/* =================================
-   Сброс базовых отступов и box-sizing
-   ================================= */
+/* Общие стили */
+:root {
+	--primary: #1976d2;
+	--primary-hover: #1565c0;
+	--secondary: #9c27b0;
+	--secondary-hover: #7b1fa2;
+	--text-primary: #1a1a1a;
+	--text-secondary: #424242;
+	--bg-primary: #ffffff;
+	--bg-secondary: #f5f5f5;
+	--border: #e0e0e0;
+	--shadow: rgba(0, 0, 0, 0.1);
+	--shadow-tt: #b1b1b1;
+	--error: #d32f2f;
+	--gradient: hsla(216, 4%, 73%, 0.2);
+	--cnt-back: linear-gradient(121deg, hsla(210, 100%, 23%, 0.1), hsla(216, 4%, 73%, 0.2));
+}
+body.dark-theme {
+	--primary: #90caf9;
+	--primary-hover: #64b5f6;
+	--secondary: #ce93d8;
+	--secondary-hover: #ba68c8;
+	--text-primary: #e0e0e0;
+	--text-secondary: #b0b0b0;
+	--bg-primary: #121212;
+	--bg-secondary: #1e1e1e;
+	--border: #333333;
+	--shadow: rgba(0, 0, 0, 0.3);
+	--error: #f44336;
+	--gradient: hsla(210, 100%, 23%, 0.2);
+	--cnt-back: linear-gradient(292deg, hsl(210, 68%, 26%), hsla(0, 0%, 0%, 0.951));
+}
+/* ========== Общий сброс ========== */
 *,
 *::before,
 *::after {
@@ -9,16 +39,23 @@
 	padding: 0;
 }
 
-html,
 body {
-	width: 100%;
-	height: 100%;
-	overflow-x: hidden;
+	font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+		Cantarell, sans-serif;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--bg-secondary);
+	background: var(--cnt-back);
+	color: var(--text-primary);
+	line-height: 1.5;
+	transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* =================================
-   Темы: светлая и тёмная
-   ================================= */
 body.light-theme {
 	background-color: #f8f9fa;
 	color: #24292e;
@@ -29,18 +66,13 @@ body.dark-theme {
 	color: #c9d1d9;
 }
 
-/* =================================
-   .container: общий отступ и выравнивание
-   ================================= */
 .container {
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 2rem 1rem;
 }
 
-/* =================================
-   Блок управления (тема + язык)
-   ================================= */
+/* Блок управления темой и языком */
 .controls {
 	position: fixed;
 	top: 1rem;
@@ -54,48 +86,64 @@ body.dark-theme {
 	background: none;
 	border: none;
 	cursor: pointer;
-	padding: 0.4rem;
-	border-radius: 0.4rem;
-	transition: background-color 0.2s ease;
+	padding: 8px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--text-primary);
+	background-color: var(--bg-primary);
+	box-shadow: 0 2px 4px var(--shadow);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-body.light-theme .icon-button:hover {
+.icon-button:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 8px var(--shadow);
+}
+
+.icon-button:active {
+	transform: translateY(0);
+}
+
+/* body.light-theme .icon-button:hover {
 	background-color: rgba(0, 0, 0, 0.05);
 }
 
 body.dark-theme .icon-button:hover {
 	background-color: rgba(255, 255, 255, 0.1);
-}
+} */
 
-/* =================================
-   Стили для Markdown-контента (README.md)
-   ================================= */
+/* ========== Markdown (README.md) ========== */
 #readme-container {
 	margin-top: 2rem;
 }
 
-/* Основные элементы Markdown */
+/* Все заголовки, параграфы, списки и пр. */
 #readme-container h1,
 #readme-container h2,
 #readme-container h3 {
-	margin: 1.5rem 0 1rem;
+	margin: 1.2rem 0 0.8rem;
 	line-height: 1.3;
 }
 
 #readme-container p {
-	margin: 0.8rem 0;
-	line-height: 1.6;
+	margin: 0.4rem 0;
+	line-height: 1.4;
 }
 
 #readme-container a {
 	color: #0366d6;
 	text-decoration: none;
+	display: inline-block; /* чтобы внутрь ссылок-бейджей не было переноса */
 }
 
 body.dark-theme #readme-container a {
 	color: #58a6ff;
 }
-
+#readme-container a {
+	margin-top: 3px;
+}
 #readme-container a:hover {
 	text-decoration: underline;
 }
@@ -104,6 +152,16 @@ body.dark-theme #readme-container a {
 #readme-container ul,
 #readme-container ol {
 	margin: 0.8rem 0 0.8rem 1.2rem;
+}
+
+/* Картинки (в том числе бейджи) */
+#readme-container img {
+	display: inline-block; /* INLINE, а не BLOCK */
+	margin: 0 0.2rem; /* только сверху/снизу = 0, слева/справа = 0.2rem */
+	margin-bottom: 3px; /* добавляем снизу 3px */
+	vertical-align: middle; /* выравнивание по базовой линии текста */
+	max-width: none; /* не растягивать до 100% */
+	height: auto;
 }
 
 /* Кодовые блоки */
@@ -127,14 +185,6 @@ body.dark-theme #readme-container pre {
 
 body.dark-theme #readme-container code {
 	background-color: rgba(27, 31, 35, 0.2);
-}
-
-/* Изображения */
-#readme-container img {
-	max-width: 100%;
-	height: auto;
-	margin: 1rem 0;
-	display: block;
 }
 
 /* Таблицы */
@@ -161,4 +211,11 @@ body.dark-theme #readme-container td {
 
 body.dark-theme #readme-container th {
 	background-color: #161b22;
+}
+
+/* Горизонтальная линия */
+#readme-container hr {
+	margin: 1.5rem 0;
+	border: 0;
+	border-top: 1px solid #ddd;
 }

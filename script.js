@@ -1,40 +1,36 @@
 document.addEventListener('DOMContentLoaded', () => {
-	// Ссылки на элементы управления
+
 	const themeToggle = document.getElementById('theme-toggle');
 	const languageToggle = document.getElementById('language-toggle');
 
-	// Элементы для мультиязычности: все, у кого есть data-i18n
+
 	const i18nElements = document.querySelectorAll('[data-i18n]');
 
-	// Текущий язык (по умолчанию русский)
-	let currentLanguage = 'ru';
 
-	// Объект переводов (добавьте свои ключи и переводы)
+	let currentLanguage = 'en';
+
 	const translations = {
 		ru: {
 			'page-title': 'Страница Дениса',
-			'page-header': 'Добро пожаловать',
-			'toggle-theme': 'Переключить тему',
-			'toggle-language': 'Переключить язык',
-			// добавьте здесь остальные ключи из вашего интерфейса
+			hi: 'Привет, я Денис и я FullStack JavaScript Developer',
+			2: 'В процессе',
+			З: 'Я провожу своё свободное время',
+
 		},
 		en: {
 			'page-title': "Denis's Page",
-			'page-header': 'Welcome',
-			'toggle-theme': 'Toggle Theme',
-			'toggle-language': 'Switch Language',
-			// например: 'some-key': 'Some English text', …
+			hi: "Hi, I'm Denis and I'm a FullStack JavaScript Developer ",
+			2: 'In the process',
+			3: 'I spend my free time on',
 		},
 		es: {
 			'page-title': 'Página de Denis',
-			'page-header': 'Bienvenido',
-			'toggle-theme': 'Cambiar Tema',
-			'toggle-language': 'Cambiar Idioma',
-			// переводите остальные ключи на испанский
+			hi: 'Hola, soy Denis y soy un desarrollador de JavaScript FullStack',
+			2: 'En el proceso',
+			3: 'Paso mi tiempo libre,',
 		},
 	};
 
-	// Функция для перевода интерфейса
 	const translatePage = () => {
 		i18nElements.forEach((el) => {
 			const key = el.getAttribute('data-i18n');
@@ -47,12 +43,12 @@ document.addEventListener('DOMContentLoaded', () => {
 				}
 			}
 		});
-		// Если нужно обновить что-то ещё при смене языка, сделайте это здесь
+		// If you need to update something else when changing the language
 	};
 
-	// Обработчик смены языка
+	// Language changer handler
 	languageToggle.addEventListener('click', () => {
-		// Цикл: ru → en → es → ru → …
+		//  ru → en → es → ru → …
 		if (currentLanguage === 'ru') currentLanguage = 'en';
 		else if (currentLanguage === 'en') currentLanguage = 'es';
 		else currentLanguage = 'ru';
@@ -60,18 +56,15 @@ document.addEventListener('DOMContentLoaded', () => {
 		translatePage();
 	});
 
-	// Обработчик смены темы
+	// Change Theme Handler
 	themeToggle.addEventListener('click', () => {
 		document.body.classList.toggle('dark-theme');
 		document.body.classList.toggle('light-theme');
 	});
 
-	// Сразу делаем начальный перевод (чтобы подставить тексты в <title> и <h1>)
 	translatePage();
 
-	// ====================================
-	// Загрузка и рендеринг README.md
-	// ====================================
+	// Loading and rendering README.md
 	const readmeContainer = document.getElementById('readme-container');
 
 	fetch('README.md')
@@ -80,12 +73,12 @@ document.addEventListener('DOMContentLoaded', () => {
 			return res.text();
 		})
 		.then((markdown) => {
-			// Преобразуем Markdown в HTML через marked.js
+			// 'marked.parse'' converts Markdown string to HTML string
 			const html = marked.parse(markdown);
 			readmeContainer.innerHTML = html;
 		})
 		.catch((err) => {
 			console.error(err);
-			readmeContainer.innerHTML = '<p>Ошибка при загрузке содержимого.</p>';
+			readmeContainer.innerHTML = '<p>Error while loading content..</p>';
 		});
 });

@@ -3,27 +3,15 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title data-i18n="page-title">Страница Дениса</title>
-
-		<!-- Подключаем стили -->
+		<title data-i18n="page-title">Page d9911</title>
 		<link rel="stylesheet" href="styles.css" />
-
-		<!-- Библиотека marked.js для рендеринга Markdown в HTML -->
 		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
-		<!-- Иконки для темы и языка (SVG) можно вынести в спрайт или оставить здесь -->
+		<script defer src="script.js"></script>
 	</head>
 	<body class="light-theme">
 		<!-- Блок управления темой и языком -->
 		<div class="controls">
-			<button
-				id="theme-toggle"
-				class="icon-button"
-				aria-label="Change Theme"
-				data-i18n="toggle-theme"
-				title="Toggle Theme"
-			>
-				<!-- Солнечная/лунная иконка -->
+			<button id="theme-toggle" class="icon-button" aria-label="Change the topic">
 				<svg viewBox="0 0 24 24" width="20" height="20">
 					<path
 						fill="currentColor"
@@ -31,15 +19,7 @@
 					/>
 				</svg>
 			</button>
-
-			<button
-				id="language-toggle"
-				class="icon-button"
-				aria-label="Switch Language"
-				data-i18n="toggle-language"
-				title="Toggle Language"
-			>
-				<!-- Иконка глобуса/языка -->
+			<button id="language-toggle" class="icon-button" aria-label="Switch language">
 				<svg viewBox="0 0 24 24" width="20" height="20">
 					<path
 						fill="currentColor"
@@ -48,18 +28,14 @@
 				</svg>
 			</button>
 		</div>
-
-		<!-- Заголовок страницы -->
-		<header class="container">
+		<!-- <header class="container">
 			<h1 data-i18n="page-header">Добро пожаловать</h1>
-		</header>
+		</header> -->
 
-		<!-- Сюда будет рендериться Markdown из README.md -->
 		<main class="container">
 			<div id="readme-container"></div>
 		</main>
 
-		<!-- Подключаем свой скрипт с логикой мультиязычности, тем и загрузки README.md -->
-		<script src="script.js"></script>
+
 	</body>
 </html>
