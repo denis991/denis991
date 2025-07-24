@@ -38,19 +38,34 @@ document.addEventListener('DOMContentLoaded', () => {
 			description: 'Личный сайт-разработчика d9911: проекты, контакты, технологии и CV.',
 			keywords: 'd9911, разработчик, проекты, портфолио, технологии, frontend, backend, cv, контакты, open source',
 			htmlLang: 'ru',
-			hi: "Привет, я Денис и я FullStack JavaScript Developer"
+			translations: {
+				'hi': "Привет, я Денис и я FullStack JavaScript Developer",
+				'page-title': 'Страница Дениса',
+				"process": 'В процессе',
+				"free-time-h3": 'Я провожу своё свободное время',
+			}
 		},
 		es: {
 			description: 'Sitio web personal del desarrollador d9911: proyectos, contacto, tecnologías y currículum.',
 			keywords: 'd9911, desarrollador, proyectos, portafolio, tecnologías, frontend, backend, currículum, contacto, open source',
 			htmlLang: 'es',
-			hi: "Hola, soy Denis y soy FullStack JavaScript Developer"
+			translations: {
+				'hi': "Hola, soy Denis y soy FullStack JavaScript Developer",
+				'page-title': 'Página de Denis',
+				"process": 'En el proceso',
+				"free-time-h3": 'Paso mi tiempo libre,',
+			}
 		},
 		en: {
 			description: 'Personal website of developer d9911: projects, contact info, technologies, and CV.',
 			keywords: 'd9911, developer, projects, portfolio, technologies, frontend, backend, cv, contacts, open source',
 			htmlLang: 'en',
-			hi: "Hi, I'm Denis and I'm a FullStack JavaScript Developer"
+			translations: {
+				'hi': "Hi, I'm Denis and I'm a FullStack JavaScript Developer",
+				'page-title': "Denis Page",
+				"process": 'In the process',
+				"free-time-h3": 'I spend my free time on',
+			}
 		}
 	};
 
@@ -67,17 +82,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	function detectLanguage() {
 		// Returns the preferred language code
-		const queryLang = getLangFromQuery();
-		if (queryLang) return queryLang;
 		const savedLang = localStorage.getItem('language');
 		if (savedLang && languageMap[savedLang]) return savedLang;
+		// Если нет в localStorage, определяем и сохраняем
+		const queryLang = getLangFromQuery();
+		if (queryLang) {
+			localStorage.setItem('language', queryLang);
+			return queryLang;
+		}
 		const browserLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
 		const shortLang = browserLang.split('-')[0];
 		const ruLangs = ['ru', 'uk', 'be', 'kk', 'ky', 'uz', 'ab', 'mo', 'tg', 'tk'];
 		const esLangs = ['es', 'mx', 'ar', 'co', 'cl', 'pe', 've', 'ec', 'uy', 'bo', 'py', 'gt', 'cr', 'pa', 'do', 'hn', 'sv', 'ni', 'cu'];
-		if (ruLangs.includes(shortLang)) return 'ru';
-		if (esLangs.includes(shortLang)) return 'es';
-		return 'en';
+		let detected = 'en';
+		if (ruLangs.includes(shortLang)) detected = 'ru';
+		else if (esLangs.includes(shortLang)) detected = 'es';
+		localStorage.setItem('language', detected);
+		return detected;
 	}
 
 	let currentLanguage = detectLanguage();
@@ -94,45 +115,26 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 
 	// --- showLoaderBeforeGreeting ---
-	// Shows an animated loader (atom-loader.svg) before the greeting <h2> and hides it after a short delay
+	// Shows an animated loader (atom-loader.svg) before the greeting <h1> and hides it after a short delay
 	function showLoaderBeforeGreeting(lang) {
-		const h2 = document.querySelector('h2[data-i18n="hi"]')?.parentElement;
-		if (!h2) return;
+		const h1 = document.querySelector('h1[data-i18n="hi"]')?.parentElement;
+		if (!h1) return;
 		const loaderDiv = document.createElement('div');
 		loaderDiv.id = 'atom-loader-wrap';
 		loaderDiv.innerHTML = `<img src="src/image/atom-loader.svg" alt="Loading..." width="64" height="64" style="display:block;margin:0 auto;" />`;
-		h2.parentNode.insertBefore(loaderDiv, h2);
-		h2.style.display = 'none';
+		h1.parentNode.insertBefore(loaderDiv, h1);
+		h1.style.display = 'none';
 		window.addEventListener('load', () => {
 			setTimeout(() => {
 				loaderDiv.remove();
-				h2.style.display = '';
+				h1.style.display = '';
 			}, 1200);
 		});
 	}
 
 	// --- i18n/meta ---
 	// Handles translation of all elements with data-i18n and meta tags with data-i18n-meta
-	const translations = {
-		ru: {
-			'page-title': 'Страница Дениса',
-			hi: 'Привет, я Денис и я FullStack JavaScript Developer',
-			2: 'В процессе',
-			З: 'Я провожу своё свободное время',
-		},
-		en: {
-			'page-title': "Denis's Page",
-			hi: "Hi, I'm Denis and I'm a FullStack JavaScript Developer ",
-			2: 'In the process',
-			3: 'I spend my free time on',
-		},
-		es: {
-			'page-title': 'Página de Denis',
-			hi: 'Hola, soy Denis y soy un desarrollador de JavaScript FullStack',
-			2: 'En el proceso',
-			3: 'Paso mi tiempo libre,',
-		},
-	};
+
 	const translationsMeta = {
 		ru: {
 			description: 'Личный сайт-разработчика d9911: проекты, контакты, технологии и CV.',
@@ -167,10 +169,10 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 
 	const translatePage = () => {
-		// Translates all elements with data-i18n and updates meta tags
-		i18nElements.forEach((el) => {
+		// Always get all elements with data-i18n (including those rendered dynamically)
+		document.querySelectorAll('[data-i18n]').forEach((el) => {
 			const key = el.getAttribute('data-i18n');
-			const translation = translations[currentLanguage][key];
+			const translation = languageMap[currentLanguage].translations[key];
 			if (translation) {
 				if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
 					el.placeholder = translation;
@@ -181,9 +183,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		});
 		updateMetaTags();
 		setLangMeta(currentLanguage);
-		// hi greeting replacement
-		const hiSpan = document.querySelector('h2 span[data-i18n="hi"]');
-		if (hiSpan) hiSpan.textContent = languageMap[currentLanguage].hi;
 	};
 
 	// --- Language switchers ---
@@ -229,6 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		.then((markdown) => {
 			const html = marked.parse(markdown);
 			readmeContainer.innerHTML = html;
+			translatePage(); // <-- translate new elements!
 		})
 		.catch((err) => {
 			console.error(err);
