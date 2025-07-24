@@ -106,6 +106,8 @@ body.dark-theme {
 }
 
 .icon-button {
+	width: 36px;
+	height: 36px;
 	background: none;
 	border: none;
 	cursor: pointer;
@@ -148,7 +150,6 @@ body.dark-theme {
 	word-wrap: break-word;
 }
 
-
 #readme-container h1,
 #readme-container h2,
 #readme-container h3 {
@@ -160,7 +161,6 @@ body.dark-theme {
 	margin: 0.4rem 0;
 	line-height: 1.4;
 }
-
 
 #readme-container a {
 	color: #0366d6;
@@ -175,12 +175,10 @@ body.dark-theme #readme-container a {
 	text-decoration: underline;
 }
 
-
 #readme-container ul,
 #readme-container ol {
 	margin: 0.8rem 0 0.8rem 1.2rem;
 }
-
 
 #readme-container img {
 	display: inline-block;
@@ -190,7 +188,6 @@ body.dark-theme #readme-container a {
 	max-width: 100%;
 	height: auto;
 }
-
 
 #readme-container pre {
 	background-color: rgba(27, 31, 35, 0.05);
@@ -212,7 +209,6 @@ body.dark-theme #readme-container code {
 	background-color: rgba(27, 31, 35, 0.2);
 }
 
-
 #readme-container table {
 	width: 100%;
 	border-collapse: collapse;
@@ -233,7 +229,6 @@ body.dark-theme #readme-container td {
 body.dark-theme #readme-container th {
 	background-color: #161b22;
 }
-
 
 #readme-container hr {
 	margin: 1.5rem 0;

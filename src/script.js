@@ -1,21 +1,124 @@
 document.addEventListener('DOMContentLoaded', () => {
-
 	const themeToggle = document.getElementById('theme-toggle');
 	const languageToggle = document.getElementById('language-toggle');
-
-
+	const languageSwitcher = document.getElementById('language-switcher');
 	const i18nElements = document.querySelectorAll('[data-i18n]');
 
+	// --- Theme ---
+	// Handles theme initialization and switching. Loads theme from localStorage ("dark" or "light") on page load.
+	// Updates body class and toggle button icon. Saves user choice to localStorage on toggle.
+	const savedTheme = localStorage.getItem('theme');
+	if (savedTheme === 'dark') {
+		document.body.classList.add('dark-theme');
+		document.body.classList.remove('light-theme');
+		if (themeToggle) themeToggle.textContent = '🌙';
+	} else {
+		document.body.classList.remove('dark-theme');
+		document.body.classList.add('light-theme');
+		if (themeToggle) themeToggle.textContent = '☀️';
+	}
+	if (themeToggle) {
+		themeToggle.addEventListener('click', () => {
+			// Toggle theme classes and icon, save to localStorage
+			document.body.classList.toggle('dark-theme');
+			document.body.classList.toggle('light-theme');
+			const isDark = document.body.classList.contains('dark-theme');
+			themeToggle.textContent = isDark ? '🌙' : '☀️';
+			localStorage.setItem('theme', isDark ? 'dark' : 'light');
+		});
+	}
 
-	let currentLanguage = 'en';
+	// --- Language detection (query, localStorage, browser) ---
+	// Determines the user's language preference in the following order:
+	// 1. Query parameter (?lang=ru|en|es)
+	// 2. localStorage ("language")
+	// 3. Browser language (with region mapping for RU/CIS and ES-speaking countries)
+	const languageMap = {
+		ru: {
+			description: 'Личный сайт-разработчика d9911: проекты, контакты, технологии и CV.',
+			keywords: 'd9911, разработчик, проекты, портфолио, технологии, frontend, backend, cv, контакты, open source',
+			htmlLang: 'ru',
+			hi: "Привет, я Денис и я FullStack JavaScript Developer"
+		},
+		es: {
+			description: 'Sitio web personal del desarrollador d9911: proyectos, contacto, tecnologías y currículum.',
+			keywords: 'd9911, desarrollador, proyectos, portafolio, tecnologías, frontend, backend, currículum, contacto, open source',
+			htmlLang: 'es',
+			hi: "Hola, soy Denis y soy FullStack JavaScript Developer"
+		},
+		en: {
+			description: 'Personal website of developer d9911: projects, contact info, technologies, and CV.',
+			keywords: 'd9911, developer, projects, portfolio, technologies, frontend, backend, cv, contacts, open source',
+			htmlLang: 'en',
+			hi: "Hi, I'm Denis and I'm a FullStack JavaScript Developer"
+		}
+	};
 
+	function getLangFromQuery() {
+		// Checks for ?lang=... in the URL and saves to localStorage if valid
+		const params = new URLSearchParams(window.location.search);
+		const langParam = params.get('lang');
+		if (langParam && languageMap[langParam]) {
+			localStorage.setItem('language', langParam);
+			return langParam;
+		}
+		return null;
+	}
+
+	function detectLanguage() {
+		// Returns the preferred language code
+		const queryLang = getLangFromQuery();
+		if (queryLang) return queryLang;
+		const savedLang = localStorage.getItem('language');
+		if (savedLang && languageMap[savedLang]) return savedLang;
+		const browserLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+		const shortLang = browserLang.split('-')[0];
+		const ruLangs = ['ru', 'uk', 'be', 'kk', 'ky', 'uz', 'ab', 'mo', 'tg', 'tk'];
+		const esLangs = ['es', 'mx', 'ar', 'co', 'cl', 'pe', 've', 'ec', 'uy', 'bo', 'py', 'gt', 'cr', 'pa', 'do', 'hn', 'sv', 'ni', 'cu'];
+		if (ruLangs.includes(shortLang)) return 'ru';
+		if (esLangs.includes(shortLang)) return 'es';
+		return 'en';
+	}
+
+	let currentLanguage = detectLanguage();
+
+	// --- setLangMeta ---
+	// Updates <html lang> and meta description/keywords for SEO and accessibility
+	function setLangMeta(lang) {
+		const meta = languageMap[lang];
+		document.documentElement.lang = meta.htmlLang;
+		const desc = document.querySelector('meta[name="description"]');
+		if (desc) desc.setAttribute('content', meta.description);
+		const kw = document.querySelector('meta[name="keywords"]');
+		if (kw) kw.setAttribute('content', meta.keywords);
+	}
+
+	// --- showLoaderBeforeGreeting ---
+	// Shows an animated loader (atom-loader.svg) before the greeting <h2> and hides it after a short delay
+	function showLoaderBeforeGreeting(lang) {
+		const h2 = document.querySelector('h2[data-i18n="hi"]')?.parentElement;
+		if (!h2) return;
+		const loaderDiv = document.createElement('div');
+		loaderDiv.id = 'atom-loader-wrap';
+		loaderDiv.innerHTML = `<img src="src/image/atom-loader.svg" alt="Loading..." width="64" height="64" style="display:block;margin:0 auto;" />`;
+		h2.parentNode.insertBefore(loaderDiv, h2);
+		h2.style.display = 'none';
+		window.addEventListener('load', () => {
+			setTimeout(() => {
+				loaderDiv.remove();
+				h2.style.display = '';
+			}, 1200);
+		});
+	}
+
+	// --- i18n/meta ---
+	// Handles translation of all elements with data-i18n and meta tags with data-i18n-meta
 	const translations = {
 		ru: {
 			'page-title': 'Страница Дениса',
 			hi: 'Привет, я Денис и я FullStack JavaScript Developer',
 			2: 'В процессе',
 			З: 'Я провожу своё свободное время',
-
 		},
 		en: {
 			'page-title': "Denis's Page",
@@ -30,7 +133,6 @@ document.addEventListener('DOMContentLoaded', () => {
 			3: 'Paso mi tiempo libre,',
 		},
 	};
-
 	const translationsMeta = {
 		ru: {
 			description: 'Личный сайт-разработчика d9911: проекты, контакты, технологии и CV.',
@@ -53,6 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	};
 
 	function updateMetaTags() {
+		// Updates all meta tags with data-i18n-meta for the current language
 		const metaTags = document.querySelectorAll('meta[data-i18n-meta]');
 		metaTags.forEach((meta) => {
 			const key = meta.getAttribute('data-i18n-meta');
@@ -64,6 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 
 	const translatePage = () => {
+		// Translates all elements with data-i18n and updates meta tags
 		i18nElements.forEach((el) => {
 			const key = el.getAttribute('data-i18n');
 			const translation = translations[currentLanguage][key];
@@ -76,37 +180,53 @@ document.addEventListener('DOMContentLoaded', () => {
 			}
 		});
 		updateMetaTags();
-		// If you need to update something else when changing the language
+		setLangMeta(currentLanguage);
+		// hi greeting replacement
+		const hiSpan = document.querySelector('h2 span[data-i18n="hi"]');
+		if (hiSpan) hiSpan.textContent = languageMap[currentLanguage].hi;
 	};
 
-	// Language changer handler
-	languageToggle.addEventListener('click', () => {
-		//  ru → en → es → ru → …
-		if (currentLanguage === 'ru') currentLanguage = 'en';
-		else if (currentLanguage === 'en') currentLanguage = 'es';
-		else currentLanguage = 'ru';
+	// --- Language switchers ---
+	// Handles both a select (languageSwitcher) and a button (languageToggle) for changing language
+	if (languageSwitcher) {
+		languageSwitcher.value = currentLanguage;
+		languageSwitcher.addEventListener('change', (e) => {
+			const lang = e.target.value;
+			currentLanguage = lang;
+			document.documentElement.lang = lang;
+			localStorage.setItem('language', lang);
+			translatePage();
+		});
+	}
 
-		translatePage();
-	});
+	if (languageToggle) {
+		languageToggle.addEventListener('click', () => {
+			if (currentLanguage === 'ru') currentLanguage = 'en';
+			else if (currentLanguage === 'en') currentLanguage = 'es';
+			else currentLanguage = 'ru';
+			document.documentElement.lang = currentLanguage;
+			localStorage.setItem('language', currentLanguage);
+			translatePage();
+		});
+	}
 
-	// Change Theme Handler
-	themeToggle.addEventListener('click', () => {
-		document.body.classList.toggle('dark-theme');
-		document.body.classList.toggle('light-theme');
-	});
+	// --- Initial render ---
+	// Sets <html lang>, translates page, sets meta, and shows loader before greeting
 
+	document.documentElement.lang = currentLanguage;
 	translatePage();
+	setLangMeta(currentLanguage);
+	showLoaderBeforeGreeting(currentLanguage);
 
-	// Loading and rendering README.md
+	// --- README.md loading ---
+	// Loads and renders README.md into the #readme-container using marked.js
 	const readmeContainer = document.getElementById('readme-container');
-
 	fetch('../README.md')
 		.then((res) => {
 			if (!res.ok) throw new Error('Не удалось загрузить README.md');
 			return res.text();
 		})
 		.then((markdown) => {
-			// 'marked.parse'' converts Markdown string to HTML string
 			const html = marked.parse(markdown);
 			readmeContainer.innerHTML = html;
 		})
