@@ -31,6 +31,38 @@ document.addEventListener('DOMContentLoaded', () => {
 		},
 	};
 
+	const translationsMeta = {
+		ru: {
+			description: 'Личный сайт-разработчика d9911: проекты, контакты, технологии и CV.',
+			'og:description': 'Личный сайт-разработчика d9911: проекты, контакты, технологии и CV.',
+			'twitter:description': 'Личный сайт-разработчика d9911: проекты, контакты, технологии и CV.',
+			keywords: 'd9911, разработчик, проекты, портфолио, технологии, frontend, backend, cv, контакты, open source',
+		},
+		en: {
+			description: "Personal website of developer d9911: projects, contact info, technologies, and CV.",
+			'og:description': "Personal website of developer d9911: projects, contact info, technologies, and CV.",
+			'twitter:description': "Personal website of developer d9911: projects, contact info, technologies, and CV.",
+			keywords: 'd9911, developer, projects, portfolio, technologies, frontend, backend, cv, contacts, open source',
+		},
+		es: {
+			description: "Sitio web personal del desarrollador d9911: proyectos, contacto, tecnologías y currículum.",
+			'og:description': "Sitio web personal del desarrollador d9911: proyectos, contacto, tecnologías y currículum.",
+			'twitter:description': "Sitio web personal del desarrollador d9911: proyectos, contacto, tecnologías y currículum.",
+			keywords: 'd9911, desarrollador, proyectos, portafolio, tecnologías, frontend, backend, currículum, contacto, open source',
+		},
+	};
+
+	function updateMetaTags() {
+		const metaTags = document.querySelectorAll('meta[data-i18n-meta]');
+		metaTags.forEach((meta) => {
+			const key = meta.getAttribute('data-i18n-meta');
+			const value = translationsMeta[currentLanguage][key];
+			if (value) {
+				meta.setAttribute('content', value);
+			}
+		});
+	}
+
 	const translatePage = () => {
 		i18nElements.forEach((el) => {
 			const key = el.getAttribute('data-i18n');
@@ -43,6 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				}
 			}
 		});
+		updateMetaTags();
 		// If you need to update something else when changing the language
 	};
 
