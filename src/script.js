@@ -234,4 +234,18 @@ document.addEventListener('DOMContentLoaded', () => {
 			console.error(err);
 			readmeContainer.innerHTML = '<p>Error while loading content..</p>';
 		});
+
+	// --- SVG Sprite ---
+	// Inserts the sprite.svg content into a hidden div for easy access
+	const svgSpriteContainer = document.getElementById('svg-sprite-container');
+	if (svgSpriteContainer) {
+		fetch('src/sprite/sprite.svg')
+			.then(r => r.text())
+			.then(svg => {
+				svgSpriteContainer.innerHTML = svg;
+			})
+			.catch(err => {
+				console.error('Error loading sprite.svg:', err);
+			});
+	}
 });

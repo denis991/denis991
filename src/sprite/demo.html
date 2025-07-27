@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>SVG Sprite Demo</title>
+		<link rel="stylesheet" href="sprite.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+			body {
+				font-family: 'Segoe UI', Arial, sans-serif;
+				background: linear-gradient(135deg, #232526 0%, #414345 100%),
+					url('data:image/svg+xml;utf8,<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="40" height="40" fill="%23232526"/><circle cx="20" cy="20" r="2" fill="%233a3d40"/></svg>');
+				color: #222;
+				margin: 0;
+				min-height: 100vh;
+				background-blend-mode: overlay;
+			}
+			header {
+				padding: 2.5rem 1rem 1.5rem 1rem;
+				text-align: center;
+			}
+			header h1 {
+				margin: 0 0 0.5em 0;
+				font-size: clamp(1.5rem, 4vw, 2.5rem);
+				letter-spacing: 0.03em;
+				font-weight: 700;
+			}
+			header p {
+				margin: 0 0 1.2em 0;
+				color: #666;
+				font-size: 1.1rem;
+			}
+			.icon-count {
+				margin-top: 0.5em;
+				color: #6cf;
+				font-size: 1.1em;
+				font-weight: 500;
+			}
+			.filter-row {
+				margin: 1.5em auto 0 auto;
+				max-width: 420px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: 0.7em;
+			}
+			.filter-row input {
+				width: 100%;
+				padding: 0.7em 1em;
+				border-radius: 8px;
+				border: 1.5px solid #2e323a;
+				background: #f3f3f3;
+				color: #222;
+				font-size: 1.08em;
+				outline: none;
+				transition: border 0.18s, box-shadow 0.18s;
+				box-shadow: 0 1px 6px #0002;
+			}
+			.filter-row input:focus {
+				border-color: #6cf;
+				box-shadow: 0 2px 12px #6cf2;
+			}
+			.icon-demo {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+				gap: 32px;
+				padding: 2rem 2vw 3rem 2vw;
+				max-width: 1300px;
+				margin: 0 auto;
+			}
+			.icon-block {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: flex-start;
+				max-width: 200px;
+				border-radius: 18px;
+				padding: 16px 14px 32px 14px;
+				text-align: center;
+				box-shadow: 0 4px 24px #0003, 0 1.5px 0 #3332 inset;
+				transition: transform 0.18s, box-shadow 0.18s, border 0.18s;
+				position: relative;
+				overflow: hidden;
+				border: 2px solid #e0e0e0;
+				opacity: 0;
+				transform: translateY(30px) scale(0.98);
+				animation: fadeInCard 0.5s cubic-bezier(0.4, 1.6, 0.6, 1) forwards;
+			}
+			.icon-block.copied {
+				border-color: #6cf;
+				box-shadow: 0 8px 32px #6cf6, 0 1.5px 0 #6cf8 inset;
+			}
+			.icon-block:hover {
+				transform: translateY(-6px) scale(1.045);
+				box-shadow: 0 12px 40px #0004, 0 1.5px 0 #6cf4 inset;
+				border-color: #6cf;
+			}
+			@keyframes fadeInCard {
+				to {
+					opacity: 1;
+					transform: none;
+				}
+			}
+			.icon-block svg {
+				width: 68px;
+				height: 32px;
+				margin-bottom: 44px;
+				margin-top: 2px;
+				background: #fff0;
+				border-radius: 8px;
+				box-shadow: 0 1px 6px #0001;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				transition: background 0.2s;
+			}
+			.icon-block:hover svg {
+				background: #f5f5f5;
+			}
+			.icon-id {
+				font-size: 1.13em;
+				color: #222;
+				font-weight: 600;
+				margin-bottom: 0.2em;
+				letter-spacing: 0.01em;
+				text-shadow: 0 1px 2px #fff8;
+				word-break: break-all;
+				cursor: pointer;
+				position: relative;
+				z-index: 2;
+				user-select: all;
+				transition: color 0.18s;
+			}
+			.icon-id:hover {
+				color: #6cf;
+				text-decoration: underline;
+			}
+			.icon-class {
+				font-size: 0.97em;
+				color: #6cf;
+				word-break: break-all;
+				opacity: 0.85;
+				margin-bottom: 0.2em;
+			}
+			.copy-tooltip {
+				position: absolute;
+				left: 50%;
+				top: 8px;
+				transform: translateX(-50%);
+				background: #232e3a;
+				color: #6cf;
+				padding: 0.32em 1.1em;
+				border-radius: 6px;
+				font-size: 0.98em;
+				font-weight: 500;
+				box-shadow: 0 2px 8px #0003;
+				opacity: 0;
+				pointer-events: none;
+				transition: opacity 0.18s;
+				z-index: 10;
+			}
+			.icon-block.copied .copy-tooltip {
+				opacity: 1;
+			}
+			.svg-block {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 32px;
+				width: 100%;
+				overflow: hidden;
+				padding: 0;
+				margin: 0;
+				background: none;
+				box-sizing: border-box;
+			}
+
+			.svg-block svg {
+				height: 32px;
+				max-height: 100%;
+				width: auto;
+				display: block;
+				margin: 0;
+				padding: 0;
+			}
+			@media (max-width: 700px) {
+				.icon-demo {
+					grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+					gap: 16px;
+					padding: 1rem 2vw 2rem 2vw;
+				}
+				.icon-block {
+					max-width: 140px;
+					min-height: 180px;
+					padding: 18px 4px 24px 4px;
+				}
+				.icon-block svg {
+					width: 44px;
+					height: 20px;
+					margin-bottom: 24px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>SVG Sprite Preview</h1>
+			<p>
+				Все иконки из спрайта ниже. Наведите мышкой для эффекта ✨<br />Кликните по названию —
+				скопируете id!
+			</p>
+			<div class="icon-count" id="icon-count"></div>
+			<div class="filter-row">
+				<input
+					type="text"
+					id="icon-filter"
+					placeholder="Поиск по названию иконки..."
+					autocomplete="off"
+				/>
+			</div>
+		</header>
+		<div id="sprite-container"></div>
+		<div class="icon-demo" id="icon-demo"></div>
+		<script>
+			// Цвета для фона карточек (по кругу)
+			const blockBgColors = [
+				'#fff', // белый
+				'#f5f5f5', // светло-серый
+				'#e0e0e0', // серый
+				'#cccccc', // чуть темнее
+				'#f9fafb', // почти белый
+				'#eaeaea', // светло-серый 2
+				'#d6d6d6', // серый 2
+				'#f3f3f3', // светлый
+			];
+			fetch('sprite.svg')
+				.then((r) => r.text())
+				.then((svg) => {
+					document.getElementById('sprite-container').innerHTML = svg;
+				});
+			let allIds = [];
+			fetch('icon_ids.json')
+				.then((r) => r.json())
+				.then((ids) => {
+					allIds = ids;
+					renderIcons(ids);
+					document.getElementById('icon-count').textContent = `Всего иконок: ${ids.length}`;
+				});
+			function renderIcons(ids) {
+				const demo = document.getElementById('icon-demo');
+				demo.innerHTML = '';
+				ids.forEach((id, i) => {
+					const className = 'icon-' + id;
+					const block = document.createElement('div');
+					block.className = 'icon-block';
+					block.style.animationDelay = i * 0.03 + 's';
+					// Меняем фон по кругу
+					block.style.background = blockBgColors[i % blockBgColors.length];
+					block.innerHTML = `
+            <div class="svg-block">
+              <svg>
+                <use xlink:href="#${id}">
+                </use>
+              </svg>
+            </div>
+          <div class="icon-id" title="Кликните, чтобы скопировать id">${id}</div>
+          <div class="icon-class">.${className}</div>
+          <div class="copy-tooltip">Скопировано!</div>
+        `;
+					// Копирование по клику
+					block.querySelector('.icon-id').onclick = function (e) {
+						navigator.clipboard.writeText(id);
+						block.classList.add('copied');
+						setTimeout(() => block.classList.remove('copied'), 1200);
+					};
+					demo.appendChild(block);
+				});
+				document.getElementById('icon-count').textContent = `Всего иконок: ${ids.length}`;
+			}
+			// Фильтр
+			document.getElementById('icon-filter').addEventListener('input', function () {
+				const val = this.value.trim().toLowerCase();
+				if (!val) {
+					renderIcons(allIds);
+					return;
+				}
+				const filtered = allIds.filter((id) => id.toLowerCase().includes(val));
+				renderIcons(filtered);
+			});
+		</script>
+	</body>
+</html>
